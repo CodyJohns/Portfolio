@@ -22,7 +22,7 @@
 }
 
 .f-padding {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 10px 40px 10px;
 }
 </style>
 

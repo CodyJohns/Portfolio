@@ -1,5 +1,5 @@
 <template>
-<div class="h-60 plr bio-background" id="about">
+<div class="h-60-b plr bio-background" id="about">
     <div class="col-sm-6 offset-sm-3">
         <h2>Hello!</h2>
         <p>
@@ -35,6 +35,11 @@
 <style>
 .plr {
     padding: 80px 40px 40px 40px;
+}
+
+.h-60-b {
+    min-height: 80vh;
+    max-height: 1000px;
 }
 
 .bio-background {
