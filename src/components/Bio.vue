@@ -4,7 +4,7 @@
         <h2>Hello!</h2>
         <p>
             I'm a BYU student majoring in Computer Science. 
-            I have been coding since I was in High School and I currently work for the McKay School of Education as
+            I have been coding since I was in High School and I currently work for the BYU McKay School of Education as
             a Full Stack Web Developer.
         </p>
         <div class="col-sm-6 offset-sm-3">
@@ -26,7 +26,7 @@
             </p>
         </div>
         <p>
-        Learning new technologies is a skill that every Developer must have. I work hard and put 100% effort in meeting the goals and deadlines.
+            Learning new technologies is a skill that every Developer must have. I am always willing to learn new ways to complete tasks. I work hard to get projects done and put 100% effort in meeting the goals and deadlines.
         </p>
     </div>
 </div>
