@@ -38,7 +38,6 @@
 }
 
 .h-60-b {
-    min-height: 80vh;
     max-height: 1000px;
 }
 
