@@ -14,6 +14,7 @@
                     <li>HTML 5 + CSS</li>
                     <li>Node.Js</li>
                     <li>Vue.Js</li>
+                    <li>React/React Native</li>
                     <li>Git</li>
                     <li>PHP</li>
                     <li>Drupal</li>
@@ -21,7 +22,7 @@
                     <li>Python</li>
                     <li>C++</li>
                     <li>Java</li>
-                    <li>Debian-Based Linux Systems</li>
+                    <li>Debian/Fedora-Based Linux Systems</li>
                 </ul>
             </p>
         </div>

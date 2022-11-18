@@ -5,7 +5,7 @@
     <span>MySQL</span>
     <span>PHP</span>
     <span>DRUPAL</span> 
-    <span>REST-APIs</span>
+    <span>REACT</span>
     <span>PYTHON</span>
     <span>C++</span>
 </div>
