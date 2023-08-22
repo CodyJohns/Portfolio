@@ -17,7 +17,7 @@
             I'm more than qualified for your project.
         </p>
         <p>Here's some of the tools I've used:</p>
-        <div class="row">
+        <div class="row pb-4">
             <div class="col-sm-6 col-12">
                 <ul>
                     <li>SpringBoot Web Framework</li>

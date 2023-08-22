@@ -1,7 +1,7 @@
 <template>
 <div class="black">
     <div class="col-xs-12 h-60px white f-padding text-center">
-        Copyright &copy; 2022 Cody Johns.
+        Copyright &copy; 2020-{{ getYear }} Cody Johns.
         &nbsp;&nbsp;&nbsp;<i class="fa fa-phone" aria-hidden="true"></i> (972) 201-7993
         &nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i> cjohns365@gmail.com
     </div>
@@ -27,8 +27,15 @@
 </style>
 
 <script>
+import moment from 'moment';
+
 const Footer = {
     name: 'Footer',
+    computed: {
+        getYear() {
+            return moment().format('Y');
+        }
+    }
 }
 export default Footer
 </script>

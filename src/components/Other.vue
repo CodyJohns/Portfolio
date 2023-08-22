@@ -16,7 +16,7 @@
         </p>
         <p>
             This clone does vary from the original game by using 10 different types of blocks. The orange blocks do not break, while the gray blocks take two hits to break. 
-            The rainbow blocks when hit release a powerup which will give the following abilities when caught by the paddle:
+            The rainbow blocks when hit release a powerup which will give one of the following abilities when caught by the paddle:
             <ul>
                 <li>A larger paddle</li>
                 <li>A faster moving paddle</li>

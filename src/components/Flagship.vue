@@ -23,7 +23,7 @@
                 <strong>Variable expenses</strong> are the monthly expenses that <strong>can fluctuate from month to month</strong>, and as well as other unplanned expenses. 
             </p>
             <p>
-                On a monthly basis, user's will input their gross and net income and input what their preset calculated and variable expenses were. 
+                On a monthly basis, users will input their gross and net income and input what their preset calculated and variable expenses were. 
                 Users can review what they spent the most on and what their average monthly income is.
             </p>
             <div class="row">
