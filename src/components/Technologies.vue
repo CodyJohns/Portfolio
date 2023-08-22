@@ -1,8 +1,8 @@
 <template>
 <div class="col-xs-12 h-60p gainsboro responsive-font borders" style="color:#afb1b4;display:flex;align-items:center;justify-content:center;">
     <span>VUE.JS</span>
-    <span>NODE.JS</span>
-    <span>MySQL</span>
+    <span>JAVA</span>
+    <span>SQL</span>
     <span>PHP</span>
     <span>DRUPAL</span> 
     <span>REACT</span>
@@ -13,7 +13,7 @@
 
 <style>
 .gainsboro {
-    background: #DDDFE4;
+    background: #f5f5f5;
 }
 
 .borders {

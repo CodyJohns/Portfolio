@@ -1,11 +1,12 @@
 <template>
-	<Landing></Landing>
-	<Technologies></Technologies>
-	<Bio></Bio>
-	<Projects @image_zoom="image_zoom"></Projects>
-	<Other @image_zoom="image_zoom"></Other>
-	<Footer></Footer>
-	<ImageZoom v-if="zoom" :imgObj="zoom_obj" :key="zoom_obj" @close="close"></ImageZoom>
+	<Landing />
+	<Technologies />
+	<Bio />
+	<Flagship @image_zoom="image_zoom" />
+	<Projects @image_zoom="image_zoom" />
+	<Other @image_zoom="image_zoom" />
+	<Footer />
+	<ImageZoom v-if="zoom" :imgObj="zoom_obj" :key="zoom_obj" @close="close" />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import Projects from '@/components/Projects.vue'
 import Other from '@/components/Other.vue'
 import Footer from '@/components/Footer.vue'
 import ImageZoom from '@/components/ImageZoom.vue'
+import Flagship from './components/Flagship.vue'
 
 export default {
 	name: 'App',
@@ -23,6 +25,7 @@ export default {
 		Landing,
 		Technologies,
 		Bio,
+		Flagship,
 		Projects,
 		Other,
 		Footer,
@@ -58,6 +61,6 @@ body {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: #F9F4F5;
+	background: #fefefe;
 }
 </style>

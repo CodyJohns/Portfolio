@@ -1,17 +1,31 @@
 <template>
 <div class="col-sm-10 offset-sm-1 h-60px other-background p-o dflex">
     <div class="col-sm-6 offset-sm-1 p-i">
-        <h4>The Champs Gaming Events</h4>
+        <h4>Itigaria</h4>
         <p>
-            Skills used: Nginx, Node.Js, Express.Js, Axios, Bcrypt.Js, Python, MySQL.
+            Skills used: C++, MinGW compiler, SDL2 open source computer graphics library.
         </p>
         <p>
-            <a href="https://thechamps.co/" target="_blank">The Champs</a> is a website where gamers from any platform can create, join, and play in tournaments/matches with others. 
+            <a href="https://cjx.itch.io/itigaria" target="_blank">Itigaria</a> is an Arkanoid clone I made in the summer of 2020.
         </p>
         <p>
-            I helped create webpages that use axios to access the back end Node.js server, wrote Javascript Timers, used Javascript Libraries such as Bcrypt.js for password hashing, Moment.js to handle timezones, and used the Paypal REST-API to process payments. 
-            All information was kept in a MySQL database which I helped manage and setup. Python scripts were used to run database operations such as payment logs, which are setup to be downloaded and uploaded to paypal, and delete old uploaded user pictures for tournament/match evidence. 
-            The Python scripts were run using linux cron jobs.
+            I programmed a clone of the old arcade game, Arkanoid. There are no sprites (except the font letters) because I wanted to keep the game simple and focus on programming the physics of the ball and blocks.
+        </p>
+        <p>
+            Along with the game is included a level editing executable as well, although it is extremely primitive.
+        </p>
+        <p>
+            This clone does vary from the original game by using 10 different types of blocks. The orange blocks do not break, while the gray blocks take two hits to break. 
+            The rainbow blocks when hit release a powerup which will give the following abilities when caught by the paddle:
+            <ul>
+                <li>A larger paddle</li>
+                <li>A faster moving paddle</li>
+                <li>3 ball spawn</li>
+            </ul>
+        </p>
+        <p>
+            The pink blocks blink on and off allowing the ball to collide with it when on and allowing it to pass through when off.
+            All other blocks only give different amounts of points depending on the color.
         </p>
     </div>
     <div class="col-sm-4 offset-sm-1 p-i">
@@ -19,7 +33,7 @@
             <i>(Click to Zoom)</i>
         </div>
         <div class="col-sm-12">
-            <img src="@/assets/champs.png" class="img-m" @click="image_zoom('champs.png')" />
+            <img src="@/assets/itigaria.png" class="img-m" @click="image_zoom('itigaria.png')" />
         </div>
     </div>
 </div>

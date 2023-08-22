@@ -1,5 +1,5 @@
 <template>
-<div class="h-60px gainsboro p-o" id="projects">
+<div class="h-60px gainsboro p-o">
     <div class="col-sm-9 dflex" style="margin:0 auto;">
         <div class="col-sm-5 p-i">
             <h4>Speaker Approval System</h4>
@@ -7,7 +7,7 @@
                 Skills used: PHP, MySQL, Javascript, Drupal Webforms, Drupal Views
             </p>
             <p>
-                I re-made a Drupal module for the BYU McKay School of Education. 
+                I refactored the code of a Drupal module for the BYU McKay School of Education and added features. 
                 The module allows for the school faculty to submit a Speaker Request. 
             </p>
             <p>

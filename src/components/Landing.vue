@@ -1,10 +1,10 @@
 <template>
 <div class="gainsboro">
-    <div class="h-60 code black-back" style="display:flex;align-items:center;justify-content:left;position:relative;">
-        <div class="col-sm-6 p-l" style="text-align:left;">
+    <div class="h-60 code black-back d-flex align-items-center justify-content-start position-relative">
+        <div class="col-sm-6 p-l text-start">
             <h4>Hello, I'm</h4>
             <h1>Cody Johns</h1>
-            <h3>Software Developer</h3>
+            <h3>Software Engineer</h3>
             <br />
             <a href="/docs/Resume.pdf" target="_blank"><button class="btn btn-outline-light" style="margin-right:20px;">View Resume</button></a>
             <a href="#projects"><button class="btn btn-outline-light">View Projects</button></a>
@@ -12,7 +12,7 @@
         <div class="col-12 col-sm-12 text-center" style="position:absolute;bottom:30px;">
             <a class="null" href="#about">
                 <i class="fa fa-arrow-down" aria-hidden="true"></i> 
-                About me
+                About Me
             </a>
         </div>
     </div>
@@ -21,7 +21,7 @@
 
 <style>
 .black-back {
-    background: linear-gradient(135deg, #2380BE 70%, #136eab 70%);
+    background: linear-gradient(135deg, #1a759f 20%, #34a0a4 70%, #52b69a 70%);
     color: #F9F4F5;
 }
 
@@ -59,7 +59,7 @@ h3 {
 
 @media only screen and (max-width: 540px) {
     .p-l {
-        padding-left:20px;
+        padding-left: 10%;
     }
 }
 

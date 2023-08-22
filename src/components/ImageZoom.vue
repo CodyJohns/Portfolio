@@ -1,10 +1,10 @@
 <template>
 <div class="img_zoom">
-    <div class="col-sm-12" style="position:relative;">
-        <button class="btn btn-danger" style="position:absolute;top:20px;right:20px;" @click="close">X</button>
+    <div class="col-sm-12 position-relative bkg-white h-44">
+        <button class="btn btn-close btn-light position-absolute" style="top:10px;right:20px;" @click="close"></button>
     </div>
     <div class="col-sm-12">
-        <img :src="require(`@/assets/${imgObj.imgSrc}`)" class="img_info" style="position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);" />
+        <img :src="require(`@/assets/${imgObj.imgSrc}`)" class="img_info position-absolute" style="top: 50%;left: 50%;transform: translate(-50%, -50%);" />
     </div>
 </div>
 </template>
@@ -26,6 +26,14 @@
 
 .img_size {
     width: 100%;
+}
+
+.h-44 {
+    height: 44px;
+}
+
+.bkg-white {
+    background-color: #fafafa !important;
 }
 </style>
 
