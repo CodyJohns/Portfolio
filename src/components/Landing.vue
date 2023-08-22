@@ -37,7 +37,6 @@
 .h-60 {
     min-height: 600px;
     height: 80vh;
-    max-height: 1000px;
 }
 
 .null {

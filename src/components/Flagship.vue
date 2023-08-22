@@ -26,12 +26,12 @@
                 On a monthly basis, user's will input their gross and net income and input what their preset calculated and variable expenses were. 
                 Users can review what they spent the most on and what their average monthly income is.
             </p>
-            <div class="d-flex">
-                <div>
+            <div class="row">
+                <div class="col-12 col-sm-4">
                     <a href="https://play.google.com/store/apps/details?id=com.ezincometracker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank"><img src="@/assets/google_play.png" class="google-play-btn" /></a>
                 </div>
-                <div>
-                    <p class="ps-5 pt-4 text-center">Coming soon to iOS App Store</p>
+                <div class="col-12 col-sm-8">
+                    <p class="ps-0 ps-sm-5 pt-4">Coming soon to iOS App Store</p>
                 </div>
             </div>
         </div>

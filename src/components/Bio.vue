@@ -56,10 +56,6 @@
     padding: 80px 40px 40px 40px;
 }
 
-.h-60-b {
-    max-height: 1000px;
-}
-
 .bio-background {
     background: url('@/assets/code-solid.webp');
     background-repeat: no-repeat;
@@ -69,6 +65,10 @@
 
 a {
     text-decoration-style: dotted;
+}
+
+ul {
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 500px) {
