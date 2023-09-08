@@ -31,7 +31,9 @@
                     <a href="https://play.google.com/store/apps/details?id=com.ezincometracker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank"><img src="@/assets/google_play.png" class="google-play-btn" /></a>
                 </div>
                 <div class="col-12 col-sm-8">
-                    <p class="ps-0 ps-sm-5 pt-4">Coming soon to iOS App Store</p>
+					<div class="ps-2 ps-sm-4">
+                        <a href="https://apps.apple.com/us/app/ez-budget/id6464128386" target="_blank"><img src="@/assets/ios_store_badge.svg" class="ios-store-btn" /></a>
+					</div>
                 </div>
             </div>
         </div>
@@ -55,7 +57,11 @@
     height:600px;
 }
 .google-play-btn {
-    width: 200px;
+    width: 180px;
+}
+.ios-store-btn {
+    padding-top: 10px;
+    width: 150px;
 }
 </style>
 
