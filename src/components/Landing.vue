@@ -7,12 +7,16 @@
             <h3>Software Engineer</h3>
             <br />
             <a href="/docs/Resume.pdf" target="_blank"><button class="btn btn-outline-light" style="margin-right:20px;">View Resume</button></a>
-            <a href="#projects"><button class="btn btn-outline-light">View Projects</button></a>
+            <a href="#projects"><button class="btn btn-outline-light" style="margin-right:20px;">View Projects</button></a>
         </div>
         <div class="col-12 col-sm-12 text-center" style="position:absolute;bottom:30px;">
-            <a class="null" href="#about">
+            <a class="null pe-3" href="#about">
                 <i class="fa fa-arrow-down" aria-hidden="true"></i> 
                 About Me
+            </a>
+            <a class="null ps-3" href="https://github.com/CodyJohns">
+                GitHub
+                <i class="fa fa-github" aria-hidden="true"></i>
             </a>
         </div>
     </div>
