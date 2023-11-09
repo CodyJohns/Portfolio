@@ -21,7 +21,8 @@
 
 .img_info {
     width: v-bind(imgObj.width);
-    height: v-bind(imgObj.height)
+    height: v-bind(imgObj.height);
+    max-width: 100vh;
 }
 
 .img_size {
