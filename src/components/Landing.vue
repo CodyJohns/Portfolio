@@ -6,7 +6,7 @@
             <h1>Cody Johns</h1>
             <h3>Software Engineer</h3>
             <br />
-            <a href="/docs/Resume.pdf" target="_blank"><button class="btn btn-outline-light" style="margin-right:20px;">View Resume</button></a>
+            <a href="https://drive.google.com/file/d/1UQxA8vjRKl7k1UnIcA37CRITqKoKL8YI/view?usp=sharing" target="_blank"><button class="btn btn-outline-light" style="margin-right:20px;">View Resume</button></a>
             <a href="#projects"><button class="btn btn-outline-light" style="margin-right:20px;">View Projects</button></a>
         </div>
         <div class="col-12 col-sm-12 text-center" style="position:absolute;bottom:30px;">
