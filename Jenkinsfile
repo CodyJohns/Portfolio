@@ -24,6 +24,7 @@ pipeline {
                 sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir ./dist/ --overwrite --include *.png --content-type image/png'
                 sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir ./dist/ --overwrite --include *.ico --content-type image/vnd.microsoft.icon'
                 sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir ./dist/ --overwrite --include "js/*.js" --content-type text/javascript'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir ./dist/ --overwrite --include "*.svg" --content-type image/svg+xml'
             }
         }
     }
