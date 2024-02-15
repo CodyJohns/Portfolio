@@ -20,13 +20,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *.html --content-type text/html'
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *.txt --content-type text/plain'
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *.css --content-type text/css'
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *.js --content-type text/javascript'
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *.png --content-type image/png'
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *.ico --content-type image/vnd.microsoft.icon'
-                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include *asset-manifest.json --content-type application/json'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include dist/*.html --content-type text/html'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include dist/*.txt --content-type text/plain'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include dist/*.css --content-type text/css'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include dist/*.js --content-type text/javascript'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include dist/*.png --content-type image/png'
+                sh '/var/lib/jenkins/bin/oci os object bulk-upload -ns axgl5hrae4r8 -bn cdjmdev_public --src-dir dist/ --overwrite --include dist/*.ico --content-type image/vnd.microsoft.icon'
             }
         }
     }
