@@ -7,7 +7,7 @@
                 Skills used: ReactJS, OpenAI API, OCI Functions using Fn Project, Java
             </p>
             <p>
-                <a href="https://aixpwkerwshhs2xpfasmlfvcva.apigateway.us-phoenix-1.oci.customer-oci.com/" target="_blank">Regex-GPT</a>: I coded a quick web app that allows a user to input a prompt for regular expression generation.
+                <a href="https://regex-gen.cdjmdev.com/" target="_blank">Regex-GPT</a>: I coded a quick web app that allows a user to input a prompt for regular expression generation.
                 The app allows the user to add test cases to check the regex against custom test cases.
                 It also maintains a history of returned regular expressions in case the user wants to
                 load a previous expression.
