@@ -14,7 +14,7 @@
                 <i class="fa fa-arrow-down" aria-hidden="true"></i> 
                 About Me
             </a>
-            <a class="null ps-3" href="https://github.com/CodyJohns" target="_blank">
+            <a class="null ps-3 pe-3" href="https://github.com/CodyJohns" target="_blank">
                 GitHub
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
