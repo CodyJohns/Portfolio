@@ -18,6 +18,10 @@
                 GitHub
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
+            <a class="null ps-3" href="https://www.linkedin.com/in/cody-johns-61230ab2/" target="_blank">
+                LinkedIn
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
 </div>
