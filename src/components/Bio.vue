@@ -3,7 +3,7 @@
     <div class="col-sm-6 offset-sm-3">
         <h2>{{ getGreetingByTimeOfDay }}!</h2>
         <p>
-            I'm Cody Johns, Software Engineer graduating from BYU in April 2024.
+            I'm Cody Johns, Software Engineer with a BS in Computer Science from BYU.
         </p>
         <p>
             In my professional work, coursework, and personal projects I closely follow the principle of developing maintainable software. The software 
@@ -88,6 +88,8 @@ const Bio = {
 
             if(time >= 0 && time < 12)
                 return "Good Morning";
+            else if(time >= 12 && time < 17)
+                return "Good Afternoon";
             else
                 return "Good Evening";
         },
