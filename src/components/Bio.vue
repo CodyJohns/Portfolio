@@ -2,17 +2,20 @@
 <div class="h-60-b plr bio-background" id="about">
     <div class="col-sm-6 offset-sm-3">
         <h2>{{ getGreetingByTimeOfDay }}!</h2>
-        <p>
-            I'm Cody Johns, Software Engineer with a BS in Computer Science from BYU.
-        </p>
-        <p>
-            In my professional work, coursework, and personal projects I closely follow the principle of developing maintainable software. The software 
-            that a company uses can make or break their business. That's why hiring the right software developers is a crucial task. A company needs reliable/trustworthy, knowledgeable, 
-            and hardworking software developers. This is what I can offer and more.
-        </p>
-        <p>
-            As a programmer who started in his high school days, I am passionate about what I do. I've programmed microcontrollers, Raspberry Pis, computer games, to websites and mobile smartphone apps.
-        </p>
+        <div>
+            <img src="@/assets/bio_pic_codyjohns.jpg" class="float-start me-4 mb-4 d-sm-block d-none" width="160" />
+            <p>
+                I'm Cody Johns, Software Engineer with a BS in Computer Science from BYU.
+            </p>
+            <p>
+                In my professional work, coursework, and personal projects I closely follow the principle of developing maintainable software. The software 
+                that a company uses can make or break their business. That's why hiring the right software developers is a crucial task. A company needs reliable/trustworthy, knowledgeable, 
+                and hardworking software developers. This is what I can offer and more.
+            </p>
+            <p>
+                As a programmer who started in his high school days, I am passionate about what I do. I've programmed microcontrollers, Raspberry Pis, computer games, to websites and mobile smartphone apps.
+            </p>
+        </div>
         <p>Here's some of the tools I've used:</p>
         <div class="row pb-4">
             <div class="col-sm-6 col-12">
