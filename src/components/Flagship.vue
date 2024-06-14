@@ -26,6 +26,9 @@
                 On a monthly basis, users will input their gross and net income and input what their preset calculated and variable expenses were. 
                 Users can review what they spent the most on and what their average monthly income is.
             </p>
+            <p>
+                Demonstration video: <a href="https://www.youtube.com/watch?v=2V-42J6L754">YouTube Link</a>
+            </p>
             <div class="row">
                 <div class="col-12 col-sm-4">
                     <a href="https://play.google.com/store/apps/details?id=com.ezincometracker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank"><img src="@/assets/google_play.png" class="google-play-btn" /></a>
