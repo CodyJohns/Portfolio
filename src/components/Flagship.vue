@@ -27,7 +27,13 @@
                 Users can review what they spent the most on and what their average monthly income is.
             </p>
             <p>
-                Demonstration video: <a href="https://www.youtube.com/watch?v=2V-42J6L754">YouTube Link</a>
+                Source code (Github):
+                <ul>
+                    <li>Back-end: <a href="https://github.com/CodyJohns/EZ-Budget-Server" target="_blank">https://github.com/CodyJohns/EZ-Budget-Server</a></li>
+                </ul>
+            </p>
+            <p>
+                Demonstration video: <a href="https://www.youtube.com/watch?v=2V-42J6L754" target="_blank">YouTube Link</a>
             </p>
             <div class="row">
                 <div class="col-12 col-sm-4">
