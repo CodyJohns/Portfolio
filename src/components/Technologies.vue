@@ -1,11 +1,11 @@
 <template>
 <div class="col-xs-12 h-60p gainsboro responsive-font borders" style="color:#afb1b4;display:flex;align-items:center;justify-content:center;">
+    <span>REACT</span>
     <span>VUE.JS</span>
     <span>JAVA</span>
     <span>SQL</span>
     <span>PHP</span>
-    <span>DRUPAL</span> 
-    <span>REACT</span>
+    <span>JAVASCRIPT</span> 
     <span>PYTHON</span>
     <span>C++</span>
 </div>
