@@ -45,7 +45,11 @@
 }
 
 .img-m {
-    height:400px;
+    height: 400px;
+}
+
+.img-s {
+    height:360px;
 }
 
 .dflex {
@@ -75,6 +79,10 @@
         width:100%;
         padding-top:40px;
         padding-bottom:40px;
+    }
+    .img-s {
+        height:unset;
+        width:100%;
     }
 } 
 </style>

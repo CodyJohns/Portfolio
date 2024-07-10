@@ -3,6 +3,7 @@
 	<Technologies />
 	<Bio />
 	<Flagship @image_zoom="image_zoom" />
+	<SecondBest @image_zoom="image_zoom" />
 	<Projects @image_zoom="image_zoom" />
 	<Other @image_zoom="image_zoom" />
 	<Footer />
@@ -18,6 +19,7 @@ import Other from '@/components/Other.vue'
 import Footer from '@/components/Footer.vue'
 import ImageZoom from '@/components/ImageZoom.vue'
 import Flagship from './components/Flagship.vue'
+import SecondBest from './components/SecondBest.vue'
 
 export default {
 	name: 'App',
@@ -26,6 +28,7 @@ export default {
 		Technologies,
 		Bio,
 		Flagship,
+		SecondBest,
 		Projects,
 		Other,
 		Footer,

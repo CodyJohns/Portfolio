@@ -2,8 +2,7 @@
 <div class="h-60-b plr bio-background" id="about">
     <div class="col-sm-6 offset-sm-3">
         <h2>{{ getGreetingByTimeOfDay }}!</h2>
-        <div>
-            <img src="@/assets/bio_pic_codyjohns.jpg" class="float-start me-4 mb-4 d-sm-block d-none" width="160" />
+        <div class="mt-3">
             <p>
                 I'm Cody Johns, Software Engineer with a BS in Computer Science from BYU.
             </p>
