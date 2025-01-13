@@ -22,7 +22,7 @@
                     <li>SpringBoot Web Framework</li>
                     <li>Express.JS</li>
                     <li>HTML & CSS</li>
-                    <li>React.JS</li>
+                    <li>React.JS/Next.JS</li>
                     <li>React Native</li>
                     <li>Flutter</li>
                     <li>Vue.JS</li>
