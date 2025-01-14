@@ -3,7 +3,7 @@
     <div class="col-sm-6 offset-sm-1 p-i">
         <h4>Itigaria</h4>
         <p>
-            Skills used: C++, MinGW compiler, SDL2 open source computer graphics library.
+            Skills used: C++, SDL2 open source computer graphics library.
         </p>
         <p>
             <a href="https://cjx.itch.io/itigaria" target="_blank">Itigaria</a> is an Arkanoid clone I made in the summer of 2020.
