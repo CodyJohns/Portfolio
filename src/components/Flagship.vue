@@ -45,7 +45,7 @@
                 <i>(Click to Zoom)</i>
             </div>
             <div class="col-sm-12">
-                <img src="@/assets/ezbudget.webp" class="img-l" @click="image_zoom('ezbudget.png')" />
+                <img src="@/assets/ezbudget.png" class="img-l" @click="image_zoom('ezbudget.png')" />
             </div>
         </div>
     </div>
